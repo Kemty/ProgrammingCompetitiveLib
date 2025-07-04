@@ -37,13 +37,15 @@
 		"prefix": "omajinai",
 		"body": [
 		  "from collections import defaultdict, deque, Counter",
-		  "import copy",
+		  "# import copy",
 		  "from itertools import combinations, permutations, product, accumulate, groupby",
+                  "from more_itertools import distinct_permutaitions",
 		  "from heapq import heapify, heappop, heappush",
 		  "import math",
 		  "import bisect",
 		  "from pprint import pprint",
-		  "from random import randint",
+		  "from random import randint, shuffle, randrange",
+                  "from sortedcontainers import SortedSet, SortedList, SortedDict"
 		  "import sys",
 		  "# sys.setrecursionlimit(700000)",
 		  "input = lambda: sys.stdin.readline().rstrip('\\n')",
